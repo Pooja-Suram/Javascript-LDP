@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZemosoRestaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="tables col-sm-3">
+            <h1>Tables</h1>
+            <div class="table-items"></div>
+        </div>
+        <div class="menu col-sm-9">
+            <h1>Menu</h1>
+            <div>
+                <input type="text" id="menu-search" placeholder="Enter Item name">
+                <ul id="menu-ul"></ul>
+            </div>
+            <div class="menu-items">
+            </div>
+        </div>
+    </div>
+
+    <div class="table-form" id="my-table-form1">
+        <div class="form-content">
+            <span class="close">&times;</span>
+            <h4>Table 1 | Order Details</h4>
+
+            <table id="items-table1" class="items-table">
+                <tr class="row">
+                    <th class="col-sm-1">S.No</th>
+                    <th class="col-sm-3">Item Name</th>
+                    <th class="col-sm-3">Price</th>
+                    <th class="col-sm-3">Modify</th>
+                    <th class="col-sm-2"></th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <div class="table-form" id="my-table-form2">
+        <div class="form-content">
+            <span class="close">&times;</span>
+            <h4>Table 2 | Order Details</h4>
+            <table id="items-table2" class="items-table">
+                <tr class="row">
+                    <th class="col-sm-1">S.No</th>
+                    <th class="col-sm-3">Item Name</th>
+                    <th class="col-sm-3">Price</th>
+                    <th class="col-sm-3">Modify</th>
+                    <th class="col-sm-2"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-form" id="my-table-form3">
+        <div class="form-content">
+            <span class="close">&times;</span>
+            <h4>Table 3 | Order Details</h4>
+            <table id="items-table3" class="items-table">
+                <tr class="row">
+                    <th class="col-sm-1">S.No</th>
+                    <th class="col-sm-3">Item Name</th>
+                    <th class="col-sm-3">Price</th>
+                    <th class="col-sm-3">Modify</th>
+                    <th class="col-sm-2"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
